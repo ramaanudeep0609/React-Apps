@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 75px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td{
+  text-align: left;
+  padding: 10px 10px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.newTag {
+  color: red;
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.freeTag {
+  color: green;
+  margin-left: 5px;
+  font-size: 10px;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
